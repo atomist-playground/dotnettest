@@ -1,5 +1,5 @@
 ARG VERSION=0.0.0
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS restore
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1@sha256:8b254b8289ef1e6653bbd44987045d0a18a9c736584b5f1f7bff9304dc64a02f AS restore
 ARG VERSION
 WORKDIR /
 
